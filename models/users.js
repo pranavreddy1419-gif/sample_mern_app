@@ -5,6 +5,8 @@ let userschema= mongoose.Schema({
     password:String,
     role:String
 })
+
+
 let users = mongoose.model('users',userschema);
 module.exports={users}
 // exporting the model to use in other files.
