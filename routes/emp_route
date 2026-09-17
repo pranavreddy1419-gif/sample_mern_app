@@ -19,3 +19,4 @@ router.put("/updatestatus",(req,res)=>{
 });
 // localhost:3000/api/emp/viewtasks GET
 module.exports=router;
+// you can use postman to test the api routes.
