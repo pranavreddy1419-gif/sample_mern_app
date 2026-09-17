@@ -12,6 +12,7 @@ router.post("/login",(req,res)=>{
 });
 router.get("/viewtask",(req,res)=>{
     res.send("View tasks route");
+
 });
 router.put("/updatestatus",(req,res)=>{
     res.send("Update status route");

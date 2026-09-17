@@ -9,9 +9,7 @@ mongoose.connect("mongodb://127.0.0.1:27017/hrmanagement")
 }).catch((err)=>{
     console.log(err);
 })
-
 app.use(express.json());
-
 app.use("/api/hr",hrroutes);
 app.use("/api/emp",emproutes);
 // run the server
