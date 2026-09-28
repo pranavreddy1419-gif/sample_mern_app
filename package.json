@@ -2,6 +2,14 @@
   "name": "sample_mern_app",
   "version": "1.0.0",
   "description": "hrmanagement",
+  "homepage": "https://github.com/pranavreddy1419-gif/sample_mern_app#readme",
+  "bugs": {
+    "url": "https://github.com/pranavreddy1419-gif/sample_mern_app/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pranavreddy1419-gif/sample_mern_app.git"
+  },
   "license": "ISC",
   "author": "pranav",
   "type": "commonjs",
