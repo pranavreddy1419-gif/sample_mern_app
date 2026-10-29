@@ -9,10 +9,13 @@ import Home from './pages/Home'
 import About from './pages/About'
 import Contact from './pages/Contact'
 import Services from './pages/Services'
-import {Routes,Route} from 'react-router-dom'
+import {Routes,Route, HashRouter} from 'react-router-dom'
 import AdminLogin from './pages/AdminLogin'
 import AdminHome from './pages/AdminHome'
-
+import Register from './pages/Register'
+import Login from './pages/login'
+import hrhome from './pages/HrHome'
+import emphome from './pages/EmpHome'
 
 function App() {
   return ( 
@@ -25,6 +28,10 @@ function App() {
       <Route path="/services" elememt={<Services></Services>}></Route>
       <Route path="/Adminlogin" element={<AdminLogin></AdminLogin>}></Route>
       <Route path="/AdminHome" element={<AdminHome></AdminHome>}></Route>
+      <Route path="/Register" element={<Register></Register>}></Route>
+      <Route path="/Login" element={<Login></Login>}></Route>
+      <Route path="/hrhome" element={<hrhome></hrhome>}></Route>
+      <Route path="/emphome" element={<emphome></emphome>}></Route>
     </Routes>
     <Footer/>
     </div>
